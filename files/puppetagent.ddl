@@ -12,11 +12,3 @@ action "classlist", :description => "Get Puppet Classes List" do
            :description => "Defined Classlist",
            :display_as => "Classlist"
 end
-
-action "forceupdate", :description => "Force puppet agent update" do
-
-    output :result,
-           :description => "Update result",
-           :display_as => "Result"
-end
-
